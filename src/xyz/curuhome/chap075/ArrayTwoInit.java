@@ -55,6 +55,7 @@ public class ArrayTwoInit {
         for(int i=0;i<c.length;i++){//deep copy
             System.arraycopy(c[i],0,d[i],0,d[i].length);
         }
+        //c[0][0]=-5;
         println(d);
         /*
         // copy 1
