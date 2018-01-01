@@ -53,5 +53,11 @@ public class EnhancedFor {
         for(Season se : Season.values()){
             System.out.println(se);//Autumn
         }
+        /*
+        SPRING
+        SUMMER
+        AUTUMN
+        WINTER
+        */
     }
 }
