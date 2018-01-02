@@ -5,6 +5,8 @@ public class Account {
     public Account ( double money ){ // 생성자에 의한 초기
         this.money = money;
     }
+    public Account(){                // default 생성자에 의한 초기화
+    }
     public double getMoney(){        // 현재 잔금
         return money;
     }
