@@ -2,7 +2,7 @@ package xyz.curuhome.chap098;
 
 public class Ant {
     private String name = "Ant";
-    String getName(){
+    public String getName(){
         return name;
     }
     public String toString(){
