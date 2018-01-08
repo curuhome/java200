@@ -5,12 +5,12 @@ public class BitShift10To2Main {
         BitShift10To2 bit=new BitShift10To2();
         bit.shift(Integer.MAX_VALUE);
         System.out.println(bit.showsb());
-        /* 11111111 */
-        bit.shift(4);
+        /* 01111111111111111111111111111111 */
+        bit.shift(350);
         System.out.println(bit.showsb());
-        /* 00000100 */
-        bit.shift(-4);
+        /* 00000000000000000000000101011110 */
+        bit.shift(-350);
         System.out.println(bit.showsb());
-        /* 11111100 */
+        /* 11111111111111111111111010100010 */
     }
 }

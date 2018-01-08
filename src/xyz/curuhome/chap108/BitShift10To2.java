@@ -1,7 +1,7 @@
 package xyz.curuhome.chap108;
 
 public class BitShift10To2 {
-    private int[] b = new int[8];
+    private int[] b = new int[32];
     //	10진법 수를 2진법으로 만들기 위해 배열에 저장
     public void shift(int a){
         b = new int[b.length];
