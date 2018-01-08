@@ -7,11 +7,6 @@ public class Radian {
 	public double getRad() {
 		return rad;
 	}
-	/*
-	public void setRad(double theta) {
-		rad=Math.PI/180.0*theta;
-	}
-	*/
 	public static double RadtoTheta(double rad) {
 		return 180.0/Math.PI*rad;
 	}
