@@ -35,7 +35,7 @@ public class PrimeMath {
     //약수를 구하는 메서드
     public int[] commonDividors(int a){
         int[] b = null;
-        int count = 1;   //1과 자기 자신
+        int count;   //1과 자기 자신
         int num=1;
         if(a>1){
             count=divisors(a);  //약수개수 구하기
