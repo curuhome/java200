@@ -3,7 +3,7 @@ package xyz.curuhome.chap135;
 public class Airplane1 {
     private String nameOfAirp;          // 비행기 이름
     private int fuel=10000;             // liter
-    private int goPerL;                 // Km/liter  defalut
+    private int goPerL;                 // Km/liter  default
     public Airplane1(String nameOfAirp, int fuel, int goPerL){
         this.nameOfAirp  = nameOfAirp;      //비행기 이름
         this.fuel        = fuel;         //liter
