@@ -23,6 +23,8 @@ public class Airplane2 {
         }
         this.fuel = fuel;
     }
+	public int getFuel() {return fuel;}
+	public String getNameOfAirp() {return nameOfAirp;}
     public String toString(){
         String s;
         if(fuel>999){
